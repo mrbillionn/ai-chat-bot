@@ -16,7 +16,9 @@ function App() {
      mb-3'>Warren ai</div>
 
     {/* body */}
-    <div className='h-[90%] overflow-auto w-full max-w-4xl min-w-[20rem] py-8 px-4 self-center '>
+    <div className='h-[90%] overflow-auto w-full max-w-4xl min-w-[20rem] py-8 px-4 self-center '
+            style={{ overscrollBehavior: 'none' }} // Disable pull-to-refresh behavior
+            >
       <ChatBody/>
     </div>
 
