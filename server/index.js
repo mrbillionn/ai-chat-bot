@@ -1,0 +1,5 @@
+import express from 'express'
+import cors from 'cors'
+import bodyParser from 'body-parser'
+import env from 'dotenv'
+import {Configuration, OpenAIApi} from 'openai-api'
